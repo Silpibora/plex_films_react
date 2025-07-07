@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function Right() {
 
    
-let si=<><i class="fa-solid fa-bookmark color-light"></i></>
+let si=<><i className="fa-solid fa-bookmark color-light"></i></>
  
 let [start,setstart]=useState(false);
 
