@@ -1,0 +1,27 @@
+.bttn{
+    width:6rem;
+    height:3rem;
+    border-radius:2rem;
+    background-color: transparent;
+    font-weight:bold;
+    text-transform: capitalize;
+    padding: 0;
+    border:none;
+    color:white;
+    margin:2px;
+    cursor:pointer
+}
+.bttn:hover{
+    background-color: rgb(97, 95, 95);
+}
+
+.fav{
+    border-radius:1.5rem;
+    padding:1.2rem;
+    background-color:transparent;
+    cursor:pointer;
+}
+
+.fav:hover{
+     background-color: rgb(97, 95, 95);
+}

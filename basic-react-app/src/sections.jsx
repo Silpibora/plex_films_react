@@ -1,4 +1,4 @@
-import Cardcollection from "./cardcollection";
+import Cardcollection from "../../cardcollection";
 
 export default function Section(){
 let styles={height:"23rem",backgroundColor:"black"}

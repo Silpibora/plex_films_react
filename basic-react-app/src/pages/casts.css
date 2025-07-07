@@ -1,0 +1,71 @@
+.bot {
+    width: 100%;
+    height: 16rem;
+    background-color: rgb(56, 56, 54);
+    box-shadow: 0 100px 1000px 1000px rgb(56, 56, 54);
+    z-index: 0;
+    font-family: sans-serif;
+}
+
+.bot h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 1.4rem;
+    color:white;
+}
+
+.cast-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: scroll;
+    width: 100%;
+    height: 12rem;
+    z-index: 0;
+    overflow-y: hidden;
+}
+
+.cast-card {
+    width: 7rem;
+    height: 7rem;
+    margin: 0.5em;
+    z-index: 0;
+}
+
+.cast-card img {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/bc/Unknown_person.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.cast-photo img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.cast-photo img {
+    border-radius: 5rem;
+    object-fit: cover;
+    box-shadow: 0 1px 10px 1px black, 1px 0 5px 1px white;
+}
+
+.names_original {
+    font-size: 12px;
+    margin: 1px;
+    color: white;
+    margin: 5px;
+}
+
+.names_character {
+    font-size: 10px;
+    ;
+    margin: 1px;
+    opacity: 0.7;
+    color: white;
+    margin: 5px;
+}
